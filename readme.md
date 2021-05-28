@@ -83,17 +83,3 @@
 
    不同职业攻击力和物抗关系折线图
 
-#### 四：crawl_baidubaike_version
-
-1. 最初的第一版爬虫，爬取百度百科页面版本
-2. 写到一半，作废
-
-#### 五：参考
-
-1. https://blog.csdn.net/New_Yao/article/details/104633562
-2. https://blog.csdn.net/y1534414425/article/details/107247322/?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_utm_term-1&spm=1001.2101.3001.4242
-3. https://blog.csdn.net/qq_42768234/article/details/104355755?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_utm_term-1&spm=1001.2101.3001.4242
-4. [https://blog.csdn.net/badder2/article/details/85089328?ops_request_misc=&request_id=&biz_id=102&utm_term=csv%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96%E7%94%BB%E6%9F%B1%E5%BD%A2%E5%9B%BE&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-9-85089328.first_rank_v2_pc_rank_v29&spm=1018.2226.3001.4187](https://blog.csdn.net/badder2/article/details/85089328?ops_request_misc=&request_id=&biz_id=102&utm_term=csv数据可视化画柱形图&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-9-85089328.first_rank_v2_pc_rank_v29&spm=1018.2226.3001.4187)
-5. [https://blog.csdn.net/badder2/article/details/85095631?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-3.baidujs&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-3.baidujs](https://blog.csdn.net/badder2/article/details/85095631?utm_medium=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-3.baidujs&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-3.baidujs)
-6. [https://blog.csdn.net/qq754772661/article/details/107206123?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522161977933116780271591515%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&request_id=161977933116780271591515&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_v2~rank_v29-1-107206123.first_rank_v2_pc_rank_v29&utm_term=%E7%87%95%E5%B0%BE%E8%8A%B1%E6%95%B0%E6%8D%AE%E5%88%86%E7%B1%BB%E5%8F%8A%E5%8F%AF%E8%A7%86%E5%8C%96&spm=1018.2226.3001.4187](https://blog.csdn.net/qq754772661/article/details/107206123?ops_request_misc=%7B%22request%5Fid%22%3A%22161977933116780271591515%22%2C%22scm%22%3A%2220140713.130102334.pc%5Fall.%22%7D&request_id=161977933116780271591515&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_v2~rank_v29-1-107206123.first_rank_v2_pc_rank_v29&utm_term=燕尾花数据分类及可视化&spm=1018.2226.3001.4187)
-7. https://blog.csdn.net/ABin_203/article/details/105992098?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_utm_term-0&spm=1001.2101.3001.4242
