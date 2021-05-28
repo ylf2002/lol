@@ -11,7 +11,7 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 
-pr=pd.read_csv("E:\大二下\人工智能基础\crawl\lol\data\clean_lol_role_data_length.csv")
+pr=pd.read_csv("lol/data/clean_lol_role_data_length.csv")
 pr.columns = [ 'heroId','name','alias','title','roles','attack', 'defense', 'magic', 'difficulty','couponPrice','goldPrice','isWeekFree']
 # print(pr)
 
@@ -48,11 +48,11 @@ plt.pie(values,labels=labels,explode=explode,colors=colors,
         startangle = 180,
         shadow=True,autopct='%1.1f%%')
 plt.axis('equal')
-plt.savefig('E:\\大二下\\人工智能基础\\crawl\\lol\\pic\\roles_ratio.png')
+plt.savefig('/lol/pic/roles_ratio.png')
 plt.show()
 
 ''' **—————— 统计上手难度 ——————** '''
-df = pd.read_csv("E:\大二下\人工智能基础\crawl\lol\data\clean_lol_role_data.csv")
+df = pd.read_csv("lol/data/clean_lol_role_data.csv")
 df.columns = [ 'heroId','name','alias','title','attack', 'defense', 'magic', 'difficulty','couponPrice',
                'goldPrice','isWeekFree','marksman','tank','mage','fighter','assassin','support']
 s=0
@@ -76,13 +76,13 @@ index=['S','A','B','C','D']
 values=[s,a,b,c,d]
 plt.title("difficulty distribution",fontsize=25)
 plt.bar(index,values)
-plt.savefig('E:\\大二下\\人工智能基础\\crawl\\lol\\pic\\diff_distribution.png')
+plt.savefig('lol/pic/diff_distribution.png')
 plt.show()
 
 ''' ***—————— 不同职业攻击力和物抗关系 ——————*** '''
-data = pd.read_csv("E:\\大二下\\人工智能基础\\crawl\\lol\\data\\roles.csv")
+data = pd.read_csv("lol/data/roles.csv")
 data.columns = [ 'roles','attack', 'defense', 'magic', 'difficulty']
 plt.title("attack and defense",fontsize=25)
 sns.lineplot(x="attack",y="defense",hue='roles',data=data)
-plt.savefig('E:\\大二下\\人工智能基础\\crawl\\lol\\pic\\attack_and_defense.png')
+plt.savefig('lol/pic/attack_and_defense.png')
 plt.show()
