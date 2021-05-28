@@ -71,7 +71,7 @@ try:
         worksheet.write(i, 10, dic[i - 1]['goldPrice'])
         worksheet.write(i, 11, dic[i - 1]['isWeekFree'])
         # 保存
-    workbook.save('E:\\大二下\\人工智能基础\\crawl\\lol\\data/first_lol_role_data.xls')
+    workbook.save('lol/data/first_lol_role_data.xls')
 except Exception as e:
     print(e)
 
