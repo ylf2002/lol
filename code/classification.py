@@ -11,7 +11,7 @@ from sklearn.model_selection import train_test_split
 from sklearn import tree
 
 # 读入数据
-roles = pd.read_csv('E:\\大二下\\人工智能基础\\crawl\\lol\\data\\roles.csv')
+roles = pd.read_csv('lol/data/roles.csv')
 # 给每列命名
 roles.columns = [ 'roles','attack', 'defense', 'magic', 'difficulty']
 columns = [ 'roles','attack', 'defense', 'magic', 'difficulty']
@@ -33,7 +33,7 @@ for i in range(4):
         
 plt.tight_layout(rect=[0,0,1,0.9])
 plt.suptitle('roles\nfighter | mage | tank | assassin | support | marksman', fontsize = 20)
-plt.savefig('E:\\大二下\\人工智能基础\\crawl\\lol\\pic\\roles_dataset.png', bbox_inches='tight', pad_inches=0.0)
+plt.savefig('lol/pic/roles_dataset.png', bbox_inches='tight', pad_inches=0.0)
 #plt.show()
 
 ''' **—————— 对数据进行切分，分出训练集和测试集—————— ** '''
@@ -62,5 +62,5 @@ fig = plt.figure(figsize=(20,20))
 tree.plot_tree(dtc,filled='True',
                feature_names=['attack', 'defense', 'magic', 'difficulty'],
                class_names=['fighter', 'mage', 'tank','assassin','support','marksman'])
-#plt.savefig('E:\\大二下\\人工智能基础\\crawl\\lol\\pic\\roles_dtc.png', bbox_inches='tight', pad_inches=0.0)
+#plt.savefig('lol/pic/roles_dtc.png', bbox_inches='tight', pad_inches=0.0)
 #plt.show()
